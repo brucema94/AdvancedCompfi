@@ -4,16 +4,16 @@ import matplotlib.pyplot as plt
 # Hull-White model parameters
 a = 0.1  # Mean reversion speed
 sigma = 0.02  # Volatility
-theta = 0.03  # Long-term mean interest rate
+theta = 0.023111894406597226  # Long-term mean interest rate
 
 # IRS parameters
 notional = 1000000  # Notional amount in the IRS
-fixed_rate = 0.035  # Fixed interest rate in the IRS
-maturity = 1  # Maturity of the IRS (10 years)
+fixed_rate = 0.023111894406597226  # Fixed interest rate in the IRS
+maturity = 10  # Maturity of the IRS (10 years)
 payment_frequency = 0.25  # 3M IRS
 
 # Simulation parameters
-T = 1  # 10 years IRS
+T = 10  # 10 years IRS
 num_steps = 252  # Frequency is set to daily to make sure instantaneous interest rate has a sufficiently small interval
 num_paths = 10  # Number of simulation paths
 
